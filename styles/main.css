@@ -203,3 +203,52 @@
       width: 150%;
     }
   }
+
+  .category-card {
+    border-radius: 16px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    text-align: center;
+    background: #f9f9f9;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+  }
+
+  .category-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .category-image{
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom:15px;
+    width:100%;
+  }
+
+  .category-card .btn-explore{
+    background-color: #7c3aed;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .category-card .btn-explore:hover{
+    background-color: #5b21b6;
+    color: #fff;
+  }
+
+  .shoe-card img{
+    /* height: 100%; */
+    object-fit: cover;
+  }
+
+  .shoe-card p{
+    font-size: 0.9rem !important;
+    color:#555;
+  }
+
+  .modal-body{
+    font-size: 0.95rem !important;
+  }
