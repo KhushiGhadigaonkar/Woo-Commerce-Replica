@@ -211,6 +211,11 @@
     max-height: 400px;
   }
 
+  .card-title{
+    display: flex;
+    justify-content: space-between;
+  }
+
   .category-card {
     border-radius: 16px;
     padding: 20px;
