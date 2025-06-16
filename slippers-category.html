@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/7fce4b5f90.js" crossorigin="anonymous"></script>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <!-- Header Wrapper -->
+    <header class="woo-header">
+
+        <!-- Top Bar -->
+        <div class="woo-topbar">
+            <ul>
+                <li><a href="#">$ USD</a></li>
+                <li><a href="#">🌐 English</a></li>
+                <li><a href="#">Develop on Woo</a></li>
+                <li><a href="#">Hire an expert</a></li>
+                <li><a href="#">Get support</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Navigation -->
+        <div class="woo-navbar">
+            <div class="woo-navbar-left">
+                <div class="woo-logo"><span>Expose Trendze</span></div>
+                <nav class="woo-nav">
+                    <ul>
+                        <li><a href="#">Sell</a></li>
+                        <li><a href="#">Extensions</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Enterprise ecommerce</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="woo-navbar-right">
+                <ul>
+                    <li><a href="#">🔍</a></li>
+                    <li><a href="#" class="login">Log in</a></li>
+                    <li><a href="#" class="get-started">Get started</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Filter Bar -->
+    <!-- <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-4">
+                <select id="materialFilter" class="form-select">
+                    <option value="">Filter by Material</option>
+                    <option value="Goat Suede">Goat Suede</option>
+                    <option value="Goat Suede/Croco Print">Goat Suede/Croco Print</option>
+                    <option value="Goat Suede & Cow">Goat Suede & Cow</option>
+                    <option value="Goat Suede & Cow Nappa">Goat Suede & Cow Nappa</option>
+                    <option value="Winter C">Winter C</option>
+                    <option value="Marino Wool">Marino Wool</option>
+                    <option value="Cow">Cow</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="colorFilter" class="form-select">
+                    <option value="">Filter by Color</option>
+                    <option value="Chocolate Brown">Chocolate Brown</option>
+                    <option value="Brown/Nuss">Brown/Nuss</option>
+                    <option value="Grey/ Rust">Grey/Rust</option>
+                    <option value="Brown/Rust">Brown/Rust</option>
+                    <option value="Earth Nuss">Earth Nuss</option>
+                    <option value="Dessert Brown">Dessert Brown</option>
+                    <option value="Black">Black</option>
+                    <option value="Grey & Black">Grey & Black</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Beige">Beige</option>
+                    <option value="Grey">Grey</option>
+                    <option value="Meganta">Meganta</option>
+                    <option value="White">White</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search by name or description">
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="container py-5">
+        <h2 class="mb-4 text-center"> Slippers</h2>
+        <div class="row g-4 justify-content-center">
+
+            <!--Card 1-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal1">
+                    <img src="./images/Adrian/2.png" class="card-img-top" alt="Slippers 1">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Adrian</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2122</li>
+                            <li>Colour: Brown</li>
+                            <li>Upper Material: Goat Suede</li>
+                            <li>Lining: Cow</li>
+                            <li>Sole: Cork Footbed/ TPR</li>
+                        </ul>
+                        Adrian blends premium goat suede with durable cow lining and a cushioned cork footbed with TPR
+                        sole, offering timeless elegance and all-day comfort in a classic brown hue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 2-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal2">
+                    <img src="./images/Alaric/3.png" class="card-img-top" alt="Slippers 2">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Alaric</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2123</li>
+                            <li>Colour: Wood Brown</li>
+                            <li>Upper Material: Goat Nubuk</li>
+                            <li>Lining: Cow Suede</li>
+                            <li>Sole: Cork Footbed/ TPR</li>
+                        </ul>
+                        Alaric combines premium goat nubuck, cow suede lining, and a cork footbed with TPR sole for
+                        rugged charm, comfort, and timeless elegance in a warm wood brown hue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 3-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal3">
+                    <img src="./images/Anders/4.png" class="card-img-top" alt="Slippers 3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Anders</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2124</li>
+                            <li>Colour: Black</li>
+                            <li>Upper Material: Goat Suede</li>
+                            <li>Lining: Cow Suede</li>
+                            <li>Sole: Cork Footbed/ TPR</li>
+                        </ul>
+                        Anders blends premium goat suede, cow suede lining, and a cork footbed with TPR sole for
+                        exceptional comfort, support, and bold elegance in a refined black hue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 4-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal4">
+                    <img src="./images/Alfred/2.png" class="card-img-top" alt="Slippers 4">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Alfred</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2125</li>
+                            <li>Colour: Oliver Green</li>
+                            <li>Upper Material: Goat Suede</li>
+                            <li>Lining: Cow</li>
+                            <li>Sole: Cork Footbed/ TPR</li>
+                        </ul>
+                        Alfred combines premium goat suede, durable cow lining, and a cork footbed with TPR sole for
+                        all-day comfort and stability, finished in a rich olive green hue for understated elegance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 5-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal5">
+                    <img src="./images/Archer/3.png" class="card-img-top" alt="Slippers 5">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Archer</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2126</li>
+                            <li>Colour: Dry Grass</li>
+                            <li>Upper Material: Goat Suede</li>
+                            <li>Lining: Cow</li>
+                            <li>Sole: Cork Footbed/ TPR</li>
+                        </ul>
+                        Archer blends premium goat suede, durable cow lining, and a cork footbed with TPR sole for
+                        superior comfort and support, finished in a distinctive brown dry grass hue for rugged elegance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 6-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal6">
+                    <img src="./images/Anton/2.png" class="card-img-top" alt="Slippers 6">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Anton</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2127</li>
+                            <li>Colour: Z - Black </li>
+                            <li>Upper Material: Cow</li>
+                            <li>Lining: Unlined</li>
+                            <li>Sole: Cork Footbed/ TPR</li>
+                        </ul>
+                        Anton combines premium cow leather, unlined breathability, and a cork footbed with TPR sole for
+                        lightweight comfort and bold sophistication in a striking Z-Black hue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 7-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal7">
+                    <img src="./images/Slepeo/2.png" class="card-img-top" alt="Slippers 7">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Slepeo</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2128</li>
+                            <li>Colour: Brown </li>
+                            <li>Upper Material: Cow Nappa</li>
+                            <li>Lining: Textile</li>
+                            <li>Sole: PU</li>
+                        </ul>
+                        Slepeo blends premium cow nappa leather, breathable textile lining, and a lightweight PU sole
+                        for elegant, flexible comfort in a classic brown hue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 8-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal8">
+                    <img src="./images/Ottorino/1.png" class="card-img-top" alt="Slippers 8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Ottorino</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2129</li>
+                            <li>Colour: Brown </li>
+                            <li>Upper Material: Cow Nappa</li>
+                            <li>Lining: Textile</li>
+                            <li>Sole: PU</li>
+                        </ul>
+                        Introducing <b>Ottorino</b>, crafted from premium cow nappa leather with a breathable textile
+                        lining and PU sole, offering sleek sophistication, all-day comfort, and timeless style in a
+                        classic brown hue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 9-->
+            <div class="col-md-4 col-sm-12">
+                <div class="card shoe-card h-100" data-bs-toggle="modal" data-bs-target="#showModal9">
+                    <img src="./images/Chemio/2.png" class="card-img-top" alt="Slippers 9">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <span>Chemio</span>
+                            <span style="color:gold; font-size:26px;">★★★★★</span>
+                        </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Article Number: ETAB/2411/2130</li>
+                            <li>Colour: Brown </li>
+                            <li>Upper Material: Cow Nappa</li>
+                            <li>Lining: Textile</li>
+                            <li>Sole: PU</li>
+                        </ul>
+                        Introducing <b>Chemio</b>, crafted from premium cow nappa leather with breathable textile lining
+                        and a flexible PU sole, delivering sleek sophistication, all-day comfort, and durable style in a
+                        classic brown hue.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Modal 1-->
+    <div class="modal fade" id="showModal1" tabindex="-1" aria-labelledby="showModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal1Label">Adrian</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 1-->
+                    <div id="shoeCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Adrian/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Adrian/2.png" class="d-block w-100" alt="Front View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Adrian/3.png" class="d-block w-100" alt="Back View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Adrian./4.png" class="d-block w-100" alt="45deg View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        This ARTICLE- ADRIAN, footwear features a premium goat suede upper, a durable cow lining for
+                        enhanced comfort, a cork footbed combined with a TPR sole for excellent support and stability,
+                        and a rich brown shade that offers timeless versatility.<br><br>
+                        Crafted with precision and sophistication, this footwear is designed to blend luxury with
+                        resilience, making it a refined choice for both casual and formal occasions. The goat suede
+                        upper provides a velvety texture that enhances the shoe’s elegance while offering exceptional
+                        durability. Suede’s naturally soft composition ensures lasting comfort while maintaining a
+                        polished, sophisticated finish, making it ideal for those who appreciate refined
+                        craftsmanship.<br><br>
+                        Inside, the cow leather lining delivers stability and comfort, offering a structured yet
+                        breathable feel. Renowned for its durability and ability to mold to the foot's shape, this
+                        lining ensures long-term wearability while maintaining a plush interior. Whether worn for
+                        extended hours or occasional outings, the cow lining enhances the overall comfort and
+                        adaptability of the footwear, ensuring a snug yet supportive fit.<br><br>
+                        Beneath the carefully designed upper, the cork footbed combined with a TPR (Thermoplastic
+                        Rubber) sole provides superior cushioning, flexibility, and grip, ensuring a comfortable stride
+                        across various terrains. The cork footbed molds naturally to the wearer’s foot, delivering
+                        personalized support and shock absorption, while the TPR sole enhances traction and resilience
+                        for secure movement. Whether walking through urban landscapes or professional spaces, this
+                        combination ensures lasting ease and stability.<br><br>
+                        Finished in a rich brown shade, this footwear embodies timeless versatility, effortlessly
+                        complementing a wide range of ensembles. The deep, earthy tone enhances classic appeal while
+                        allowing seamless styling with tailored attire or relaxed outfits. Whether stepping into
+                        business meetings or social gatherings, this meticulously crafted pair blends functionality,
+                        comfort, and refined aesthetics, making it an essential addition to any well-curated wardrobe.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 2-->
+    <div class="modal fade" id="showModal2" tabindex="-1" aria-labelledby="showModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal2Label">Alaric</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 2-->
+                    <div id="shoeCarousel2" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Alaric/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Alaric/2.png" class="d-block w-100" alt="Front View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Alaric/3.png" class="d-block w-100" alt="Back View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        This ARTICLE-ALARIC footwear features a premium goat nubuck upper, a soft cow suede lining for
+                        enhanced comfort, a durable TPR sole with a cork footbed for superior support, and a warm wood
+                        brown shade that exudes timeless sophistication.<br><br>
+                        Crafted for those who appreciate luxury with lasting durability, this footwear combines the
+                        refined texture of goat nubuck with the soft touch of cow suede lining, ensuring both elegance
+                        and comfort. The nubuck upper offers a smooth yet slightly textured finish, bringing depth to
+                        the design while maintaining resilience for everyday wear. Whether styled for casual outings or
+                        more polished occasions, this upper material enhances the shoe’s understated
+                        sophistication.<br><br>
+                        Inside, the cow suede lining provides a plush and breathable feel, wrapping the feet in a soft,
+                        snug embrace while allowing airflow for all-day wearability. Known for its gentle texture, cow
+                        suede enhances the overall comfort experience, making each step effortlessly cushioned. Whether
+                        navigating workdays or leisurely walks, this interior ensures continuous ease and adaptability,
+                        making it ideal for individuals who prioritize both comfort and style.<br><br>
+                        Beneath the refined upper lies a TPR sole combined with a cork footbed, engineered for superior
+                        grip, flexibility, and support. The cork footbed molds naturally to the wearer’s foot,
+                        delivering personalized cushioning, while the TPR sole enhances stability and traction, ensuring
+                        a confident stride across various terrains. Whether walking through busy streets or relaxed
+                        environments, this sole construction guarantees lasting comfort with every step.<br><br>
+                        Finished in a rich wood brown shade, this footwear captures earthy warmth with a sophisticated
+                        edge, making it a versatile choice for multiple occasions. The deep brown tone offers effortless
+                        styling, complementing both formal and casual ensembles with ease. Whether stepping into
+                        business meetings or weekend outings, this expertly crafted pair merges functionality with
+                        refined aesthetics, making it an essential addition to any modern wardrobe.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 3-->
+    <div class="modal fade" id="showModal3" tabindex="-1" aria-labelledby="showModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal3Label">Alaric</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 3-->
+                    <div id="shoeCarousel3" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Anders/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Anders/2.png" class="d-block w-100" alt="Front View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Anders/3.png" class="d-block w-100" alt="Back View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Anders/4.png" class="d-block w-100" alt="Back View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        The Anders footwear features a premium goat suede upper, a durable cow suedelining for enhanced
+                        comfort, a cork footbed combined with a TPR sole for superior support and grip, and a timeless
+                        black shade that exudes versatility and sophistication.<br><br>
+                        Designed for those who seek a blend of luxury and resilience, this footwear seamlessly combines
+                        the soft elegance of goat suede with the structured durability of cow leather lining, ensuring
+                        both lasting comfort and refined aesthetics. The suede upper delivers a smooth and velvety
+                        texture, adding an understated sophistication while maintaining durability for everyday
+                        wear.<br><br>
+                        Inside, the cow seude leather lining enhances comfort with its breathable and sturdy
+                        composition, ensuring a plush and adaptable fit. Designed to mold to the foot’s natural shape,
+                        cow leather provides long-term wearability and reliable support, making each step comfortable
+                        while maintaining its durability over time. Whether worn for business or casual outings, this
+                        interior ensures a soft yet structured feel, perfect for extended use.<br><br>
+                        Beneath the elegant upper, the cork footbed and TPR (Thermoplastic Rubber) sole offer
+                        exceptional cushioning, flexibility, and traction, creating a seamless walking experience across
+                        various surfaces. The cork footbed adapts to the foot’s contours, delivering personalized
+                        support and shock absorption, while the TPR sole enhances stability and grip, ensuring secure
+                        strides in different environments.<br><br>
+                        Finished in a classic black shade, the Anders footwear embodies timeless versatility,
+                        complementing both formal and casual ensembles with ease. The deep, refined tone adds a
+                        sophisticated edge to any outfit, making it perfect for individuals who appreciate functional
+                        yet stylish footwear. Whether stepping into high-profile business settings or embracing social
+                        gatherings, this expertly designed pair ensures refinement, practicality, and lasting comfort,
+                        making it an essential addition to any wardrobe.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 4-->
+    <div class="modal fade" id="showModal4" tabindex="-1" aria-labelledby="showModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal4Label">Alfred</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 4-->
+                    <div id="shoeCarousel4" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Alfred/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Alfred/2.png" class="d-block w-100" alt="Front View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Alfred/3.png" class="d-block w-100" alt="Back View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Alfred/4.png" class="d-block w-100" alt="Back View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel4"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel4"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        The Alfred footwear features a premium goat suede upper, a durable cow lining for enhanced
+                        comfort, a cork footbed combined with a TPR sole for superior support and grip, and a
+                        sophisticated olive green shade that exudes versatility and refinement.<br><br>
+                        Crafted with precision and elegance, this footwear seamlessly blends luxury with durability,
+                        making it an ideal choice for those who value style with functionality. The goat suede upper
+                        provides a velvety, refined texture, delivering both comfort and sophistication. Its soft yet
+                        resilient composition ensures a polished appearance while maintaining lasting wearability,
+                        making it perfect for both everyday use and special occasions.<br><br>
+                        Inside, the cow leather lining enhances comfort and stability, wrapping the feet in a breathable
+                        and supportive fit. Known for its ability to mold naturally to the foot's shape, cow leather
+                        ensures a plush experience while reinforcing the structure of the shoe. Whether worn for long
+                        hours or brief outings, this lining guarantees a snug yet adaptable feel, making every step
+                        effortless.<br><br>
+                        Beneath the thoughtfully crafted upper, the cork footbed and TPR (Thermoplastic Rubber) sole
+                        provide exceptional cushioning, flexibility, and traction, ensuring smooth movement across
+                        various surfaces. The cork footbed adapts to the foot’s contours, delivering personalized
+                        support, while the TPR sole enhances grip and resilience, making every stride confident and
+                        stable.<br><br>
+                        Finished in a sophisticated olive green shade, this footwear embodies versatile refinement,
+                        seamlessly complementing both formal and casual ensembles. The deep, earthy tone adds character
+                        while remaining adaptable to various wardrobe styles. Whether stepping into a polished
+                        professional setting or embracing a relaxed, stylish look, the Alfred footwear blends elegance,
+                        practicality, and lasting comfort, making it an indispensable addition to any well-curated
+                        collection.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 5-->
+    <div class="modal fade" id="showModal5" tabindex="-1" aria-labelledby="showModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal5Label">Archer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 5-->
+                    <div id="shoeCarousel5" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Archer/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Archer/2.png" class="d-block w-100" alt="Front View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Archer/3.png" class="d-block w-100" alt="Back View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Archer/4.png" class="d-block w-100" alt="Back View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel5"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel5"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        The Archer footwear features a premium goat suede upper, a durable cow lining for enhanced
+                        comfort, a cork footbed combined with a TPR sole for superior support and grip, and a rich brown
+                        dry grass shade that blends earthy sophistication with modern versatility.<br><br>
+                        Crafted for those who appreciate luxury with lasting durability, this footwear seamlessly
+                        combines the soft elegance of goat suede with the resilience of cow leather lining, ensuring
+                        both comfort and refined aesthetics. The suede upper delivers a smooth yet textured finish,
+                        offering a balance between sophistication and rugged charm, making it perfect for professional
+                        and casual settings alike.<br><br>
+                        Inside, the cow leather lining elevates comfort by providing a breathable and supportive feel,
+                        wrapping the foot in plush softness while ensuring long-term durability. Known for its ability
+                        to mold naturally to the foot, cow leather enhances wearability while maintaining its structure,
+                        ensuring a snug yet adaptable fit ideal for extended hours of use.<br><br>
+                        Beneath the carefully crafted upper, the cork footbed and TPR (Thermoplastic Rubber) sole
+                        deliver exceptional cushioning, flexibility, and traction, making movement effortless across
+                        various terrains. The cork footbed contours to the wearer’s foot, offering personalized support
+                        and shock absorption, while the TPR sole enhances stability and grip, ensuring confident strides
+                        with every step.<br><br>
+                        Finished in a rich brown dry grass shade, this footwear embodies earthy elegance with a modern
+                        edge, seamlessly complementing formal ensembles and relaxed outfits alike. The muted yet refined
+                        tone enhances depth, making it a versatile addition to any wardrobe. Whether stepping into
+                        professional spaces or embracing a more laid-back style, the Archer footwear merges
+                        functionality with sophistication, ensuring every stride is taken in confidence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 6-->
+    <div class="modal fade" id="showModal6" tabindex="-1" aria-labelledby="showModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal6Label">Anton</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 6-->
+                    <div id="shoeCarousel6" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Anton/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Anton/2.png" class="d-block w-100" alt="Front View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Anton/3.png" class="d-block w-100" alt="Back View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Anton/4.png" class="d-block w-100" alt="Back View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel6"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel6"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        The Anton footwear features a premium cow leather upper, an unlined interior for a natural feel,
+                        a cork footbed combined with a TPR sole for superior support and durability, and a sleek Z-Black
+                        shade that embodies bold sophistication.<br><br>
+                        Designed for those who appreciate rugged elegance, this footwear combines the strength of cow
+                        leather with a minimalist unlined interior, creating a natural, breathable feel. The cow leather
+                        upper offers a robust texture, ensuring long-lasting durability while maintaining a refined
+                        aesthetic. Its versatile composition makes it perfect for both structured formal looks and
+                        relaxed casual ensembles.<br><br>
+                        With no lining, this footwear provides a barefoot-inspired fit, allowing for enhanced
+                        breathability and an adaptive feel. The unlined structure conforms naturally to the foot,
+                        offering a lightweight yet supportive experience. Whether worn for extended hours or brief
+                        outings, this design ensures comfort without compromising style, making it ideal for individuals
+                        who appreciate a clean, effortless look.<br><br>
+                        Supporting the carefully crafted upper, the cork footbed and TPR (Thermoplastic Rubber) sole
+                        work together to deliver exceptional cushioning, flexibility, and grip. The cork footbed molds
+                        naturally to the shape of the foot, providing personalized comfort, while the TPR sole enhances
+                        traction and stability, ensuring confident strides across various terrains.<br><br>
+                        Finished in a sleek Z-Black shade, this footwear radiates modern sophistication, making it a
+                        perfect choice for those who seek a balance between bold style and understated elegance. The
+                        deep black tone complements both formal and casual attire effortlessly, ensuring versatility
+                        across different wardrobe choices. Whether stepping into business meetings or casual gatherings,
+                        the Anton footwear delivers a fusion of functionality, comfort, and timeless appeal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 7-->
+    <div class="modal fade" id="showModal7" tabindex="-1" aria-labelledby="showModal7Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal7Label">Slepeo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 7-->
+                    <div id="shoeCarousel7" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Slepeo/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Slepeo/2.png" class="d-block w-100" alt="Front View">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Slepeo/3.png" class="d-block w-100" alt="Back View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel7"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel7"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        The Slepeo footwear features a premium cow nappa upper, a breathable textile lining for
+                        lightweight comfort, a durable PU sole for flexibility and stability, and a rich brown shade
+                        that exudes timeless sophistication and versatility.<br><br>
+                        Designed for those who appreciate luxury with resilience, this footwear combines the supple
+                        elegance of cow nappa leather with a breathable textile lining, ensuring both refined aesthetics
+                        and lasting comfort. The cow nappa upper delivers a smooth, polished texture that enhances
+                        durability while maintaining a sleek and sophisticated look, making it an ideal choice for both
+                        professional and casual wear.<br><br>
+                        Inside, the textile lining offers breathability and adaptability, ensuring a lightweight and
+                        comfortable fit throughout the day. Designed to provide ventilation, this lining helps maintain
+                        freshness while delivering a soft touch against the skin, allowing for extended wear without
+                        discomfort. Whether navigating busy workdays or weekend outings, the interior ensures all-day
+                        ease, making every step feel effortless.<br><br>
+                        Beneath the thoughtfully crafted upper, the PU (Polyurethane) sole provides superior
+                        flexibility, grip, and shock absorption, ensuring steady movement across various terrains.
+                        Engineered for long-lasting durability, this sole supports dynamic lifestyles, allowing wearers
+                        to walk with confidence and stability. Its ability to absorb impact while maintaining resilience
+                        ensures smooth strides in both urban settings and relaxed environments.<br><br>
+                        Finished in a rich brown shade, the Slepeo footwear blends classic sophistication with modern
+                        practicality, making it a versatile addition to any wardrobe. The deep, refined tone complements
+                        both formal and casual ensembles effortlessly, ensuring effortless styling for various
+                        occasions. Whether stepping into corporate meetings or casual gatherings, this expertly crafted
+                        pair embodies comfort, style, and timeless appeal, making it an essential choice for those who
+                        appreciate refined footwear.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 8-->
+    <div class="modal fade" id="showModal8" tabindex="-1" aria-labelledby="showModal8Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal8Label">Ottorino</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 8-->
+                    <div id="shoeCarousel8" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Ottorino/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel8"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel8"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        The Ottorino footwear features a premium cow nappa upper, a breathable textile lining for
+                        lightweight comfort, a durable PU sole for flexibility and stability, and a rich brown shade
+                        that exudes timeless refinement and versatility.<br><br>
+                        Crafted for those who appreciate sophisticated craftsmanship and enduring style, this footwear
+                        seamlessly blends the supple elegance of cow nappa leather with the adaptive comfort of a
+                        textile lining, ensuring both a polished aesthetic and all-day ease. The cow nappa upper
+                        provides a smooth, refined texture that enhances durability while maintaining an effortlessly
+                        luxurious appeal.<br><br>
+                        Inside, the textile lining offers breathability and adaptability, ensuring a lightweight, snug
+                        fit ideal for extended wear. Designed to promote airflow, this lining keeps feet fresh while
+                        delivering soft, cushioned support, making it an excellent choice for both professional and
+                        casual settings. Whether worn through busy workdays or relaxed outings, it ensures lasting
+                        comfort.<br><br>
+                        Supporting the carefully crafted upper, the PU (Polyurethane) sole provides superior
+                        flexibility, grip, and shock absorption, ensuring steady movement across various terrains.
+                        Engineered for long-term resilience, this sole enhances stability while allowing for smooth
+                        strides, making it an ideal option for individuals with dynamic lifestyles.<br><br>
+                        Finished in a rich brown shade, the Ottorino footwear exudes classic appeal, effortlessly
+                        complementing a variety of ensembles. Whether paired with formal business attire or relaxed
+                        weekend wear, the deep, earthy tone enhances versatility and refined style, making it a
+                        must-have for those who value comfort, functionality, and sophisticated aesthetics.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 9-->
+    <div class="modal fade" id="showModal9" tabindex="-1" aria-labelledby="showModal9Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="showModal9Label">Chemio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Carousel 9-->
+                    <div id="shoeCarousel9" class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Chemio/1.png" class="d-block w-100" alt="Side View">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="./images/Chemio/2.png" class="d-block w-100" alt="Side View">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeCarousel9"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeCarousel9"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        The Chemio footwear features a premium cow nappa upper, a breathable textile lining for
+                        lightweight comfort, a durable PU sole for flexibility and stability, and a rich brown shade
+                        that exudes timeless refinement.<br><br>
+                        Designed for those who appreciate sophisticated craftsmanship and enduring quality, this
+                        footwear seamlessly merges the sleek elegance of cow nappa leather with the adaptive comfort of
+                        a textile lining, ensuring both polished aesthetics and all-day ease. The cow nappa upper
+                        delivers a smooth, refined texture that enhances durability while maintaining an effortlessly
+                        luxurious appeal.<br><br>
+                        Inside, the textile lining provides breathability and adaptability, ensuring a lightweight, snug
+                        fit ideal for extended wear. Engineered for ventilation, this lining keeps feet fresh while
+                        delivering a soft touch against the skin, allowing for prolonged use without discomfort. Whether
+                        worn for business meetings or casual outings, it ensures lasting comfort throughout the
+                        day.<br><br>
+                        Supporting the precisely crafted upper, the PU (Polyurethane) sole offers superior flexibility,
+                        grip, and shock absorption, enabling smooth movement across various terrains. Engineered for
+                        long-lasting resilience, this sole provides stability while allowing effortless strides, making
+                        it the ideal choice for individuals with dynamic lifestyles.<br><br>
+                        Finished in a rich brown shade, the Chemio footwear embodies classic refinement, effortlessly
+                        complementing a variety of ensembles. Whether paired with formal office attire or relaxed
+                        weekend wear, the deep, earthy tone enhances versatility and timeless appeal, making it an
+                        essential wardrobe staple for those who appreciate comfort, functionality, and understated
+                        sophistication.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
